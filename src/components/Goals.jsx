@@ -75,7 +75,7 @@ const Goals = () => {
   ];
 
   return (
-    <section className="goals section">
+    <section className="goals section" id="goals">
       <div className="container">
         <div className="goals-header">
           <span className="section-label">Our Mission</span>
