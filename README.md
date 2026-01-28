@@ -70,18 +70,17 @@ src/
 
 ## Features
 
-- ⏱️ Live countdown timer to event date
-- 🎨 Premium dark theme with custom color palette
-- 📱 Fully responsive design
-- 🚀 Lightning-fast performance with Vite
-- ♿ Accessible and semantic HTML
-- 🎯 Zero dependencies design system
+- Live countdown timer to event date
+- Premium dark theme with custom color palette
+- Fully responsive design
+- Lightning-fast performance with Vite
+- Accessible and semantic HTML
+- Zero dependencies design system
 
 ## Credits
 
 **Developed By:** Muhammad Ali Zahid - Full Stack Developer & Software Engineer
 
-**Development Assistance:** GitHub Copilot
 
 **Event Organizers:** 
 - PALS UET (Pakistan-Austria Liaison Society)
