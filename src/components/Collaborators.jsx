@@ -25,8 +25,9 @@ const Collaborators = () => {
             </div>
             <h3 className="collaborator-name">PALS UET</h3>
             <p className="collaborator-description">
-              The Pakistan-Austria Liaison Society at UET Lahore fosters academic excellence, 
-              international collaboration, and student development through tech-focused initiatives.
+              PALS is a student-led society focused on developing
+leadership, technical awareness, and industry readiness
+among students.
             </p>
             <div className="collaborator-link">
               <a href="#" className="link-subtle">
