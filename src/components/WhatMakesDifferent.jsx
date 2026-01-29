@@ -6,12 +6,7 @@ const WhatMakesDifferent = () => {
     <section className="different section">
       <div className="container">
         <div className="different-header">
-          <span className="section-label">Two Pillars</span>
-          <h2 className="section-title">What Makes BYTE بیٹھک Different</h2>
-          <p className="section-description">
-            We're not trying to be everything. We focus on two things that matter: 
-            real-world tech knowledge and authentic startup conversations.
-          </p>
+          <h2 className="section-title">What Makes BYTE بیٹھک Different:</h2>
         </div>
 
         <div className="pillars-container">

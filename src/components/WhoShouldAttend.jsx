@@ -50,8 +50,7 @@ const WhoShouldAttend = () => {
     <section className="who-attend section">
       <div className="container">
         <div className="who-attend-header">
-          <span className="section-label">Target Audience</span>
-          <h2 className="section-title">Who Should Attend</h2>
+          <h2 className="section-title">Who Should Attend:</h2>
           <p className="section-description">
             This event is for builders, learners, and doers. If you're serious about tech and 
             want exposure beyond the usual, you belong here.

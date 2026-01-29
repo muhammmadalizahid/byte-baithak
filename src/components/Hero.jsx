@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="container hero-content">
         {/* Subtle Organizer Badge */}
         <div className="organizer-badge">
-          <span className="badge-text">PALS UET × GDG OC UET</span>
+          <span className="badge-text">PALS UET × GDGOC UET</span>
         </div>
 
         {/* Strong Headline */}
@@ -78,13 +78,9 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="event-date">
-          <p>February 16, 2026</p>
-        </div>
-
         {/* CTAs */}
         <div className="hero-cta">
-          <a href="#register" className="btn btn-primary btn-lg">
+          <a href="https://forms.gle/cPwrfK2CMYf1m51o8" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
             Join Byte Baithak
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

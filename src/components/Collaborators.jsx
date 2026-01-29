@@ -8,8 +8,7 @@ const Collaborators = () => {
     <section className="collaborators section">
       <div className="container">
         <div className="collaborators-header">
-          <span className="section-label">Organized By</span>
-          <h2 className="section-title">Collaborators</h2>
+          <h2 className="section-title">Collaborators:</h2>
           <p className="section-description">
             Byte Baithak is a joint initiative bringing together academic excellence and 
             tech community building at UET Lahore.
@@ -44,14 +43,14 @@ const Collaborators = () => {
             <div className="divider-circle">×</div>
           </div>
 
-          {/* GDG OC UET */}
+          {/* GDGOC UET */}
           <div className="collaborator-card">
             <div className="collaborator-logo">
               <div className="logo-placeholder gdg">
-                <img src={gdgLogo} alt="GDG OC UET Logo" className="logo-image" />
+                <img src={gdgLogo} alt="GDGOC UET Logo" className="logo-image" />
               </div>
             </div>
-            <h3 className="collaborator-name">GDG OC UET</h3>
+            <h3 className="collaborator-name">GDGOC UET</h3>
             <p className="collaborator-description">
               Google Developer Group On Campus at UET Lahore connects students with Google's 
               developer ecosystem, modern tech practices, and industry experts.

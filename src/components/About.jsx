@@ -6,7 +6,6 @@ const About = () => {
     <section className="about section">
       <div className="container">
         <div className="about-header">
-          <span className="section-label">About The Event</span>
           <h2 className="section-title">What is BYTE بیٹھک?</h2>
         </div>
 

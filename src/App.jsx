@@ -33,22 +33,31 @@ function App() {
                 <h4>Organized By</h4>
                 <ul>
                   <li><a href="#">PALS UET</a></li>
-                  <li><a href="#">GDG OC UET</a></li>
+                  <li><a href="#">GDGOC UET</a></li>
                 </ul>
               </div>
               
               <div className="footer-section">
                 <h4>Connect</h4>
                 <ul>
+                  <li><strong>PALS UET:</strong></li>
                   <li><a href="https://www.linkedin.com/company/pals-uet/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                   <li><a href="https://www.instagram.com/pals.uet?igsh=ZnF5bmduazd5eDlm" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                  <li><strong>GDGOC UET Lahore:</strong></li>
+                  <li><a href="https://www.linkedin.com/company/gdgocuet" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/gdgocuet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                 </ul>
               </div>
               
               <div className="footer-section">
                 <h4>Contact</h4>
                 <ul>
+                  <li><strong>PALS UET:</strong></li>
+                  <li><a href="tel:03390002956">0339 0002956</a></li>
                   <li><a href="mailto:palsuetlahore@gmail.com">palsuetlahore@gmail.com</a></li>
+                  <li><strong>GDGOC UET Lahore:</strong></li>
+                  <li><a href="tel:03250340295">0325 0340295</a></li>
+                  <li><a href="mailto:gdgocuet@gmail.com">gdgocuet@gmail.com</a></li>
                 </ul>
               </div>
             </div>
@@ -56,7 +65,7 @@ function App() {
           
           <div className="footer-bottom">
             <p>&copy; 2026 Byte Baithak. All rights reserved.</p>
-            <p className="footer-credit">PALS UET × GDG OC UET</p>
+            <p className="footer-credit">PALS UET × GDGOC UET</p>
           </div>
         </div>
       </footer>

@@ -7,13 +7,26 @@
 .collaborators::before {
   content: '';
   position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(circle, rgba(90, 23, 97, 0.55) 1.5px, transparent 1.5px);
+  background-size: 45px 45px;
+  background-position: 0 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.collaborators::after {
+  content: '';
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(0, 102, 255, 0.03) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(90, 23, 97, 0.06) 0%, transparent 70%);
   pointer-events: none;
+  z-index: 0;
 }
 
 .collaborators-header {

@@ -78,11 +78,7 @@ const Goals = () => {
     <section className="goals section" id="goals">
       <div className="container">
         <div className="goals-header">
-          <span className="section-label">Our Mission</span>
-          <h2 className="section-title">Goals of BYTE بیٹھک</h2>
-          <p className="section-description">
-            Six clear objectives that guide everything we do. No mission statement fluff—just what matters.
-          </p>
+          <h2 className="section-title">Goals of BYTE بیٹھک:</h2>
         </div>
 
         <div className="goals-grid">
