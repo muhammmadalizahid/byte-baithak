@@ -24,7 +24,7 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-brand">
-              <h3 className="footer-title">Byte Baithak</h3>
+              <h3 className="footer-title">BYTE بیٹھک</h3>
               <p className="footer-tagline">Bridging Innovation & Talent at UET Lahore</p>
             </div>
             
