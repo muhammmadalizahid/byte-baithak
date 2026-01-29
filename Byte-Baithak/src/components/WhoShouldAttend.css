@@ -1,0 +1,244 @@
+.who-attend {
+    background: linear-gradient(to bottom, var(--background-alt), var(--background));
+  position: relative;
+  overflow: hidden;
+}
+
+.who-attend::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.who-attend-header {
+  text-align: center;
+  margin-bottom: var(--space-20);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Audiences Grid */
+.audiences-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-8);
+  max-width: 1000px;
+  margin: 0 auto var(--space-20);
+  position: relative;
+  z-index: 1;
+}
+
+/* Audience Card */
+.audience-card {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base);
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.audience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary), transparent);
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.audience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+  border-color: transparent;
+}
+
+.audience-card:hover::before {
+  opacity: 0.02;
+}
+
+/* Audience Icon */
+.audience-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-6);
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+.audience-card:hover .audience-icon-wrapper {
+  transform: scale(1.05) rotate(-3deg);
+}
+
+.audience-icon {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Audience Content */
+.audience-title {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--space-3);
+  transition: color var(--transition-base);
+}
+
+.audience-card:hover .audience-title {
+  color: var(--primary);
+}
+
+.audience-description {
+  font-size: var(--text-base);
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Audience Gradient Line */
+.audience-gradient-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-slow);
+}
+
+.audience-card:hover .audience-gradient-line {
+  transform: scaleX(1);
+}
+
+/* CTA Box */
+.who-attend-cta {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: var(--radius-2xl);
+  padding: var(--space-12);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-box-title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: white;
+  margin-bottom: var(--space-4);
+  position: relative;
+}
+
+.cta-box-text {
+  font-size: var(--text-lg);
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--space-8);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.cta-box .btn {
+  background: white;
+  color: var(--primary);
+  font-weight: 600;
+  position: relative;
+}
+
+.cta-box .btn:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: translateY(-4px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .who-attend-header {
+    margin-bottom: var(--space-12);
+  }
+
+  .audiences-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-bottom: var(--space-12);
+  }
+
+  .audience-card {
+    padding: var(--space-6);
+  }
+
+  .audience-icon-wrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .audience-title {
+    font-size: var(--text-xl);
+  }
+
+  .audience-description {
+    font-size: var(--text-sm);
+  }
+
+  .cta-box {
+    padding: var(--space-8);
+  }
+
+  .cta-box-title {
+    font-size: var(--text-2xl);
+  }
+
+  .cta-box-text {
+    font-size: var(--text-base);
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

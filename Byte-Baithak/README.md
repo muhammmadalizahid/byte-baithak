@@ -51,7 +51,7 @@ src/
 │   ├── WhatMakesDifferent.jsx  # Two-pillar approach
 │   ├── Goals.jsx        # Six key objectives
 │   ├── WhoShouldAttend.jsx     # Target audience
-│   ├── Collaborators.jsx       # PALS UET × GDG OC UET
+│   ├── Collaborators.jsx       # PALS UET × GDGOC UET
 │   └── FinalCTA.jsx     # Registration call-to-action
 ├── App.jsx              # Main app component with footer
 ├── main.jsx             # Entry point
@@ -62,7 +62,7 @@ src/
 
 **Date:** February 16, 2026
 
-**Organized by:** PALS UET × GDG OC UET
+**Organized by:** PALS UET × GDGOC UET
 
 **Purpose:** Expert-led tech talks + Startup idea showcase
 
@@ -84,7 +84,7 @@ src/
 
 **Event Organizers:** 
 - PALS UET (Pakistan-Austria Liaison Society)
-- GDG OC UET (Google Developer Group On Campus)
+- GDGOC UET (Google Developer Group On Campus)
 
 ## Contact
 
@@ -98,4 +98,4 @@ src/
 
 © 2026 BYTE بیٹھک. All rights reserved.
 
-PALS UET × GDG OC UET
+PALS UET × GDGOC UET
