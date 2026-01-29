@@ -64,7 +64,7 @@ function App() {
           </div>
           
           <div className="footer-bottom">
-            <p>&copy; 2026 Byte Baithak. All rights reserved.</p>
+            <p>&copy; 2026 BYTE بیٹھک. All rights reserved.</p>
             <p className="footer-credit">PALS UET × GDGOC UET</p>
           </div>
         </div>
