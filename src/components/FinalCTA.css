@@ -122,11 +122,12 @@
 .btn-cta-primary {
   background: var(--primary);
   color: var(--text-on-dark);
+  box-shadow: 0 0 10px rgba(13, 122, 79, 0.5);
 }
 
 .btn-cta-primary:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(90, 23, 97, 0.4);
+  box-shadow: 0 0 20px rgba(13, 122, 79, 0.7), 0 20px 40px rgba(13, 122, 79, 0.3);
   background: var(--primary-dark);
 }
 

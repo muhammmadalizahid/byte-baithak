@@ -51,7 +51,7 @@ src/
 │   ├── WhatMakesDifferent.jsx  # Two-pillar approach
 │   ├── Goals.jsx        # Six key objectives
 │   ├── WhoShouldAttend.jsx     # Target audience
-│   ├── Collaborators.jsx       # PALS UET × GDGOC UET
+│   ├── Collaborators.jsx       # PALS UET × AWS Cloud Clubs UET Lahore
 │   └── FinalCTA.jsx     # Registration call-to-action
 ├── App.jsx              # Main app component with footer
 ├── main.jsx             # Entry point
@@ -62,7 +62,7 @@ src/
 
 **Date:** February 16, 2026
 
-**Organized by:** PALS UET × GDGOC UET
+**Organized by:** PALS UET × AWS Cloud Clubs UET Lahore
 
 **Purpose:** Expert-led tech talks + Startup idea showcase
 
@@ -84,7 +84,7 @@ src/
 
 **Event Organizers:** 
 - PALS UET (Pakistan-Austria Liaison Society)
-- GDGOC UET (Google Developer Group On Campus)
+- AWS Cloud Clubs UET Lahore
 
 ## Contact
 
@@ -98,4 +98,4 @@ src/
 
 © 2026 BYTE بیٹھک. All rights reserved.
 
-PALS UET × GDGOC UET
+PALS UET × AWS Cloud Clubs UET Lahore

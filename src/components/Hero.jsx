@@ -5,7 +5,7 @@ const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const eventDate = new Date('2026-02-16T00:00:00').getTime();
+    const eventDate = new Date('2026-04-03T08:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="container hero-content">
         {/* Subtle Organizer Badge */}
         <div className="organizer-badge">
-          <span className="badge-text">PALS UET × GDGOC UET</span>
+          <span className="badge-text">PALS UET × AWS Cloud Clubs UET Lahore</span>
         </div>
 
         {/* Strong Headline */}

@@ -1,27 +1,27 @@
 :root {
-  /* Exact Color Palette - No Gradients */
-  --primary: #5A1761;          /* Plum Dusk - main brand color */
-  --primary-dark: #33193F;     /* Deep Wine - darker variant */
-  --primary-light: #7A2B82;    /* Lighter plum */
+  /* Modern Tech Color Palette - Mint & Slate */
+  --primary: #0D7A4F;          /* Deep Forest Green - main brand color */
+  --primary-dark: #0A5F3F;     /* Darker Forest Green - for active/pressed states */
+  --primary-light: #1CA360;    /* Dark Mint - lighter accent */
   
-  --secondary: #2A0E2B;        /* Burgundy Noir - rich depth */
-  --secondary-dark: #1F0A1C;   /* Blackberry - deepest shade */
-  --secondary-light: #3D1740;  /* Mid burgundy */
+  --secondary: #1F242B;        /* Dark Slate - cards, dropdowns, floating nav */
+  --secondary-dark: #14181D;   /* Deep Slate - nested elements, inset shadows */
+  --secondary-light: #323A45;  /* Mid Slate - hover states, active states */
   
-  --accent: #5A1761;           /* Plum accent */
-  --accent-dark: #33193F;
+  --accent: #0D7A4F;           /* Deep Forest Green accent */
+  --accent-dark: #0A5F3F;
   
-  --background: #0B0B0B;       /* Midnight - pure dark */
-  --background-alt: #1F0A1C;   /* Blackberry - slightly lighter sections */
-  --background-dark: #0B0B0B;  /* Midnight - darkest */
+  --background: #000000;       /* Solid Black - pure dark base */
+  --background-alt: #1F242B;   /* Dark Slate - alternating sections */
+  --background-dark: #000000;  /* Solid Black - darkest */
   
-  --text-primary: #FAF8FB;     /* Off-white for primary text */
-  --text-secondary: #D4C5D9;   /* Light plum for secondary text */
-  --text-muted: #9B7FA0;       /* Muted light plum for tertiary */
-  --text-on-dark: #FAF8FB;     /* Off-white on dark backgrounds */
+  --text-primary: #FFFFFF;     /* Solid White - headings, main text */
+  --text-secondary: #B0B8C1;   /* Light Slate Gray - secondary text, descriptions */
+  --text-muted: #6B7785;       /* Muted Gray - tertiary text, timestamps, copyright */
+  --text-on-dark: #FFFFFF;     /* White on dark backgrounds */
   
-  --border: #33193F;
-  --border-light: #E8DFE9;
+  --border: #323A45;           /* Mid Slate - subtle dividers */
+  --border-light: #0D7A4F;     /* Deep Forest Green - accent borders */
   
   /* Typography System */
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -177,12 +177,13 @@ p {
 .btn-primary {
   background: var(--primary);
   color: white;
+  box-shadow: 0 0 10px rgba(13, 122, 79, 0.5);
 }
 
 .btn-primary:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 0 20px rgba(13, 122, 79, 0.7), var(--shadow-lg);
 }
 
 .btn-primary:active {

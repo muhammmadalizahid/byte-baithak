@@ -6,7 +6,7 @@ const WhoShouldAttend = () => {
     {
       title: 'CS & Engineering Students',
       description: 'Ready to go beyond coursework and explore what modern software development actually looks like in practice.',
-      gradient: '#5A1761',
+      gradient: '#156B47',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M22 10V6C22 5.46957 21.7893 4.96086 21.4142 4.58579C21.0391 4.21071 20.5304 4 20 4H4C3.46957 4 2.96086 4.21071 2.58579 4.58579C2.21071 4.96086 2 5.46957 2 6V10M22 10V18C22 18.5304 21.7893 19.0391 21.4142 19.4142C21.0391 19.7893 20.5304 20 20 20H4C3.46957 20 2.96086 19.7893 2.58579 19.4142C2.21071 19.0391 2 18.5304 2 18V10M22 10H2M8 14H8.01M12 14H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -16,7 +16,7 @@ const WhoShouldAttend = () => {
     {
       title: 'Aspiring Founders',
       description: "Have an idea or thinking about starting? Learn from those who've built startups and understand the reality behind the hype.",
-      gradient: '#33193F',
+      gradient: '#156B47',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -26,7 +26,7 @@ const WhoShouldAttend = () => {
     {
       title: 'Developers',
       description: 'Building things already? Connect with peers, learn new patterns, and discover tools and practices used at scale.',
-      gradient: '#2A0E2B',
+      gradient: '#156B47',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M16 18L22 12L16 6M8 6L2 12L8 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -36,7 +36,7 @@ const WhoShouldAttend = () => {
     {
       title: 'Tech-Curious Professionals',
       description: 'From adjacent fields but interested in understanding tech culture, career paths, and how modern products are built.',
-      gradient: '#1F0A1C',
+      gradient: '#156B47',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Collaborators.css';
 import palsLogo from '../pals.png';
-import gdgLogo from '../gdg.png';
+import awsLogo from '../aws.png';
 
 const Collaborators = () => {
   return (
@@ -25,9 +25,9 @@ const Collaborators = () => {
             </div>
             <h3 className="collaborator-name">PALS UET</h3>
             <p className="collaborator-description">
-              PALS is a student-led society focused on developing
-leadership, technical awareness, and industry readiness
-among students.
+              PALS is a student-led society focused on developing leadership,
+              technical awareness, and industry readiness among students through
+              mentorship, training, and community-driven initiatives.
             </p>
           </div>
 
@@ -36,17 +36,18 @@ among students.
             <div className="divider-circle">×</div>
           </div>
 
-          {/* GDGOC UET */}
+          {/* AWS Cloud Clubs UET Lahore */}
           <div className="collaborator-card">
             <div className="collaborator-logo">
-              <div className="logo-placeholder gdg">
-                <img src={gdgLogo} alt="GDGOC UET Logo" className="logo-image" />
+              <div className="logo-placeholder aws">
+                <img src={awsLogo} alt="AWS Cloud Clubs UET Lahore Logo" className="logo-image" />
               </div>
             </div>
-            <h3 className="collaborator-name">GDGOC UET</h3>
+            <h3 className="collaborator-name">AWS Cloud Clubs UET Lahore</h3>
             <p className="collaborator-description">
-              Google Developer Group On Campus at UET Lahore connects students with Google's 
-              developer ecosystem, modern tech practices, and industry experts.
+              AWS Cloud Clubs at UET Lahore empowers students with cloud computing skills,
+              AWS best practices, and industry-relevant expertise through hands-on
+              learning and community-driven initiatives.
             </p>
           </div>
         </div>

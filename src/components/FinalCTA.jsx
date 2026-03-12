@@ -43,7 +43,7 @@ const FinalCTA = () => {
                 </svg>
                 <div>
                   <span className="detail-label">Date</span>
-                  <span className="detail-value">February 16, 2026</span>
+                  <span className="detail-value">3rd April, 2026 • 8 A.M PKT</span>
                 </div>
               </div>
 
@@ -54,7 +54,7 @@ const FinalCTA = () => {
                 </svg>
                 <div>
                   <span className="detail-label">Venue</span>
-                  <span className="detail-value">Transport Engineering Seminar Hall, UET Lahore</span>
+                  <span className="detail-value">Chemical Engineering Seminar Hall, UET Lahore</span>
                 </div>
               </div>
 
