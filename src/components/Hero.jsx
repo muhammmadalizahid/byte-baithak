@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
+import eventBook from '../Event_Book.pdf';
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -54,6 +55,17 @@ const Hero = () => {
         <p className="hero-description">
           Where expert-led tech talks meet startup conversations. A serious, vision-driven event for developers, founders, and tech innovators.
         </p>
+
+        {/* View Event Book Button */}
+        <div className="event-book-cta">
+          <a href={eventBook} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+            View Event Book
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 19V5C4 3.89543 4.89543 3 6 3H18C19.1046 3 20 3.89543 20 5V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M9 7H15M9 11H15M9 15H13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </a>
+        </div>
 
         {/* Countdown Timer */}
         <div className="countdown-timer">

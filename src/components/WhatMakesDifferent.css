@@ -142,10 +142,6 @@
   margin-top: 2px;
 }
 
-.pillar-right .list-icon {
-  color: var(--secondary);
-}
-
 .pillar-list li > div {
   flex: 1;
 }

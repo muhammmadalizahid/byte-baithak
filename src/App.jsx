@@ -53,7 +53,9 @@ function App() {
                 <h4>Contact</h4>
                 <ul>
                   <li><a href="tel:03390002956">0339 0002956</a></li>
+                  <li><a href="tel:03390002956">03204340996</a></li>
                   <li><a href="mailto:palsuetlahore@gmail.com">palsuetlahore@gmail.com</a></li>
+                  <li><a href="mailto:palsuetlahore@gmail.com">mrayyan5296@gmail.com</a></li>
                 </ul>
               </div>
             </div>
